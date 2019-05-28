@@ -27,5 +27,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest-dom": "^3.4.0",
+    "jsdom": "^15.1.1",
+    "jsdom-global": "^3.0.2",
+    "react-testing-library": "^7.0.1",
+    "user-event": "^3.0.3"
   }
 }

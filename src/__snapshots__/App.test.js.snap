@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot of duration fields 1`] = `
+<input
+  data-testid="startYear"
+  id="startYear"
+  name="durationOfStay"
+  type="text"
+  value="1965"
+/>
+`;
+
+exports[`matches snapshot of duration fields 2`] = `
+<input
+  data-testid="endYear"
+  id="endYear"
+  name="durationOfStay"
+  type="text"
+  value="2019"
+/>
+`;
+
+exports[`renders a postCode Form Field 1`] = `
+<input
+  data-testid="postCodeField"
+  name="currentAddress"
+  type="text"
+  value="HA4 0GD"
+/>
+`;
+
+exports[`renders a select field from props 1`] = `
+<DocumentFragment>
+  <label
+    for="residentialStatus"
+  >
+    Residential Status
+  </label>
+  <select
+    id="residentialStatus"
+    name="residentialStatus"
+  >
+    <option
+      value=""
+    >
+      Please Select
+    </option>
+    <option
+      value="1"
+    >
+      resident
+    </option>
+    <option
+      value="2"
+    >
+      A resident not ordnarily resident (RNOR)
+    </option>
+    <option
+      value="3"
+    >
+      A non-resident (NR)
+    </option>
+  </select>
+</DocumentFragment>
+`;
+
+exports[`renders children if condition is true 1`] = `
+<DocumentFragment>
+  <div>
+    testing
+  </div>
+</DocumentFragment>
+`;
+
+exports[`to Contain Element 1`] = `
+<DocumentFragment>
+  <div>
+    When did you move here?
+  </div>
+  <p>
+    <span />
+  </p>
+  <label
+    for="startYear"
+  />
+  <input
+    data-testid="startYear"
+    id="startYear"
+    name="durationOfStay"
+    type="text"
+    value="1965"
+  />
+  <label
+    for="endYear"
+  />
+  <input
+    data-testid="endYear"
+    id="endYear"
+    name="durationOfStay"
+    type="text"
+    value="2019"
+  />
+  <div
+    data-testid="parent"
+  >
+    <span
+      data-id="child"
+    >
+      54
+    </span>
+  </div>
+</DocumentFragment>
+`;

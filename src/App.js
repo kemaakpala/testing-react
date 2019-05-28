@@ -4,7 +4,7 @@ import IF from './tissue/IF.jsx';
 import SelectFormField from './atom/select-form-field.jsx';
 import PostCodeFormField  from './atom/post-code-form-field.jsx';
 import DurationInputFormField from './atom/duration-input-form-field.jsx';
-import ResidentialStatuses from './refData';
+import ResidentialStatuses from './refData/data';
 import Variables from './refData/variables';
 var RetrieveProductFeaturesAC = require('ui-platform').ActionCreators.RetrieveProductFeaturesAC;
 

@@ -4,9 +4,9 @@ import IF from './tissue/IF.jsx';
 import SelectFormField from './atom/select-form-field.jsx';
 import PostCodeFormField  from './atom/post-code-form-field.jsx';
 import DurationInputFormField from './atom/duration-input-form-field.jsx';
-var ResidentialStatuses = require('../../refData').residentialStatus;
+import ResidentialStatuses from './refData';
+import Variables from './refData/variables';
 var RetrieveProductFeaturesAC = require('ui-platform').ActionCreators.RetrieveProductFeaturesAC;
-var Variables = require('variables');
 
 class App extends React.Component {
   state = {

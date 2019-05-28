@@ -84,15 +84,12 @@ it('matches snapshot of duration fields', ()=> {
   expect(getByTestId("endYear")).toMatchSnapshot();
 });
 
-it('to Contain Element', () => {
+test('to Contain Element', () => {
   const onChange = jest.fn();
   const newDate = new Date();
   const startYear = 1965;
   const endYear = newDate.getFullYear();
   const duration = endYear - startYear;
-  const ancestor = document.querySelector('[data-testid="parent"]');
-  const descendant = document.querySelector('[data-testid="child"]');
-  const nonExistantElement = document.querySelector('[data-testid="does-not-exist"]');
 
   const { asFragment } = render(
     <DurationInputFormField
